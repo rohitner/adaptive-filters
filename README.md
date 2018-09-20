@@ -3,6 +3,8 @@ My collection of implementations of adaptive filters.
 
 ![filter_gif](filter.gif)
 
+[![Build Status](https://travis-ci.org/rohitner/adaptive-filters.svg?branch=master)](https://travis-ci.org/rohitner/adaptive-filters) [![Build Status](https://img.shields.io/badge/python-2.7%20%7C%203.5-blue.svg)](https://www.python.org/)
+
 #### Recursive Least Squares
 Recursive least squares (RLS) is an adaptive filter algorithm that recursively finds the coefficients that minimize a weighted linear least squares cost function relating to the input signals. This approach is in contrast to other algorithms such as the least mean squares (LMS) that aim to reduce the mean square error.
 
