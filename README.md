@@ -1,6 +1,8 @@
 # adaptive-filters
 My collection of implementations of adaptive filters.
 
+![filter_gif](filter.gif)
+
 #### Recursive Least Squares
 Recursive least squares (RLS) is an adaptive filter algorithm that recursively finds the coefficients that minimize a weighted linear least squares cost function relating to the input signals. This approach is in contrast to other algorithms such as the least mean squares (LMS) that aim to reduce the mean square error.
 
