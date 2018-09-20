@@ -40,8 +40,9 @@ b = PLS(x,4,y,600)
 for i in range(4):
   plt.subplot(int('22'+str(i+1)))
   plt.plot(a[:,i],label='truth',color='black')
-  plt.plot(b[:,i],label='RLS'  ,color='red')
+  plt.plot(b[:,i],label='PLS'  ,color='red')
   plt.title("Dimension "+str(i))
 
+plt.suptitle('Partial Least Squares')
 plt.legend()
 plt.show()

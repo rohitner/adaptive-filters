@@ -53,8 +53,9 @@ b = RLWPLS(x,y)
 for i in range(4):
   plt.subplot(int('22'+str(i+1)))
   plt.plot(a[:,i],label='truth',color='black')
-  plt.plot(b[:,i],label='RLS'  ,color='red')
+  plt.plot(b[:,i],label='RLWPLS'  ,color='red')
   plt.title("Dimension "+str(i))
 
+plt.suptitle('Recursive Locally Weighted Partial Least Squares')
 plt.legend()
 plt.show()

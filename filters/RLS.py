@@ -26,5 +26,6 @@ for i in range(4):
   plt.plot(b[:,i],label='RLS'  ,color='red')
   plt.title("Dimension "+str(i))
 
+plt.suptitle('Recursive Least Squares')
 plt.legend()
 plt.show()

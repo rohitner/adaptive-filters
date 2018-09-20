@@ -18,8 +18,9 @@ b = MWLS(x,y,600,50)
 for i in range(4):
   plt.subplot(int('22'+str(i+1)))
   plt.plot(a[:,i],label='truth',color='black')
-  plt.plot(b[:,i],label='RLS'  ,color='red')
+  plt.plot(b[:,i],label='MWLS'  ,color='red')
   plt.title("Dimension "+str(i))
 
+plt.suptitle('Moving Window Least Squares')
 plt.legend()
 plt.show()
