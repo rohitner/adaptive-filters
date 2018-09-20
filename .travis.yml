@@ -1,0 +1,12 @@
+language: python
+python:
+  - "3.5"
+install:
+  - pip install -r requirements.txt
+script:
+  - python filters/KF.py
+  - python filters/MWLS.py
+  - python filters/OPAA.py
+  - python filters/PLS.py
+  - python filters/RLS.py
+  - python filters/RLWPLS.py

@@ -27,4 +27,4 @@ for i in range(4):
 
 plt.suptitle('Online Passive Agressive Algorithm')
 plt.legend()
-plt.show()
+# plt.show()

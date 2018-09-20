@@ -45,4 +45,4 @@ for i in range(4):
 
 plt.suptitle('Partial Least Squares')
 plt.legend()
-plt.show()
+# plt.show()

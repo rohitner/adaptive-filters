@@ -23,4 +23,4 @@ for i in range(4):
 
 plt.suptitle('Moving Window Least Squares')
 plt.legend()
-plt.show()
+# plt.show()

@@ -28,4 +28,4 @@ for i in range(4):
 
 plt.suptitle('Recursive Least Squares')
 plt.legend()
-plt.show()
+# plt.show()

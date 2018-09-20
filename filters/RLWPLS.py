@@ -58,4 +58,4 @@ for i in range(4):
 
 plt.suptitle('Recursive Locally Weighted Partial Least Squares')
 plt.legend()
-plt.show()
+# plt.show()
