@@ -1,9 +1,23 @@
-# adaptive-filters
+# adaptive-filters [![Build Status](https://travis-ci.org/rohitner/adaptive-filters.svg?branch=master)](https://travis-ci.org/rohitner/adaptive-filters) [![Build Status](https://img.shields.io/badge/python-2.7%20%7C%203.5-blue.svg)](https://www.python.org/)
 My collection of implementations of adaptive filters.
 
 ![filter_gif](filter.gif)
 
-[![Build Status](https://travis-ci.org/rohitner/adaptive-filters.svg?branch=master)](https://travis-ci.org/rohitner/adaptive-filters) [![Build Status](https://img.shields.io/badge/python-2.7%20%7C%203.5-blue.svg)](https://www.python.org/)
+### Contents
+
+<!-- toc -->
+- [Filters](#filters)
+  * [Recursive Least Squares](#recursive-least-squares)
+  * [Partial Least Squares](#partial-least-squares)
+  * [Moving Window Least Squares](#moving-window-least-squares)
+  * [Recursive Locally Weighted Partial Least Squares](#recursive-locally-weighted-partial-least-squares-paper)
+  * [Online Passive Aggressive Algorithm](#online-passive-aggressive-algorithm-paper)
+  * [Kalman Filter](#kalman-filter)
+- [Plots](#plots)
+
+<!-- tocstop -->
+
+### Filters
 
 #### Recursive Least Squares
 Recursive least squares (RLS) is an adaptive filter algorithm that recursively finds the coefficients that minimize a weighted linear least squares cost function relating to the input signals. This approach is in contrast to other algorithms such as the least mean squares (LMS) that aim to reduce the mean square error.
@@ -22,3 +36,6 @@ This an adaptive parameter tracking algorithm from the machine-learning literatu
 
 #### Kalman Filter
 Kalman filtering is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone, by estimating a joint probability distribution over the variables for each timeframe.
+### Plots
+
+The results can be found in the ```plots``` directory.
